@@ -68,7 +68,7 @@
          "web" : "https://github.com/bbon/Template-Plugin-Filter-Base64"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_authority" : "cpan:BBON",
    "x_contributors" : [
       "mr.bbon <nu@nu-nu.ru>"

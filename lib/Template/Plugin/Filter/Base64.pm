@@ -10,7 +10,7 @@ use Encode;
 use MIME::Base64 qw(encode_base64);
 use HTML::Entities qw(encode_entities_numeric);
 
-our $VERSION = "0.03";
+our $VERSION = "0.04";
 
 sub init {
     my ($self) = @_;
@@ -83,7 +83,7 @@ Optional. Value means default charset (e.g. 'cp1251'). Result - convert text wit
 
 =over
 
-=dont_broken_into_lines_each_76_char
+=item dont_broken_into_lines_each_76_char
 
 Optional. If true, call the function MIME::Base64::encode_base64( $bytes, '' ) whith empty string for the parameter $eol. The returned encoded string is broken into lines of no more than 76 characters each and it will end with $eol unless it is empty. Pass an empty string as second argument if you do not want the encoded string to be broken into lines
 

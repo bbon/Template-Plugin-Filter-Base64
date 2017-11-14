@@ -2,6 +2,10 @@ Revision history for Perl extension Template-Plugin-Filter-Base64
 
 {{$NEXT}}
 
+0.04 2017-11-14T15:52:27Z
+
+    - correct documentation
+
 0.03 2017-11-14T15:48:58Z
 
     - added optional input parameter dont_broken_into_lines_each_76_char (thanks to gilgamesh44) 

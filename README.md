@@ -19,9 +19,9 @@ Template::Plugin::Filter::Base64 - encoding b64 filter for Template Toolkit
 
     Optional. Value means default charset (e.g. 'cp1251'). Result - convert text with html entities before base64-encoding
 
-> &#x3d;dont\_broken\_into\_lines\_each\_76\_char
->
-> Optional. If true, call the function MIME::Base64::encode\_base64( $bytes, '' ) whith empty string for the parameter $eol. The returned encoded string is broken into lines of no more than 76 characters each and it will end with $eol unless it is empty. Pass an empty string as second argument if you do not want the encoded string to be broken into lines
+- dont\_broken\_into\_lines\_each\_76\_char
+
+    Optional. If true, call the function MIME::Base64::encode\_base64( $bytes, '' ) whith empty string for the parameter $eol. The returned encoded string is broken into lines of no more than 76 characters each and it will end with $eol unless it is empty. Pass an empty string as second argument if you do not want the encoded string to be broken into lines
 
 # SEE ALSO
 
