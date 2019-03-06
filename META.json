@@ -4,7 +4,7 @@
       "bbon <bbon@mail.ru>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.0.13, CPAN::Meta::Converter version 2.142690",
+   "generated_by" : "Minilla/v3.1.4, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "perl_5"
    ],
@@ -68,9 +68,11 @@
          "web" : "https://github.com/bbon/Template-Plugin-Filter-Base64"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_authority" : "cpan:BBON",
    "x_contributors" : [
+      "Alexander A. Gnatyna <a.gnatyna@gazeta.ru>",
       "mr.bbon <nu@nu-nu.ru>"
-   ]
+   ],
+   "x_static_install" : 1
 }

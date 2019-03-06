@@ -1,6 +1,8 @@
 Revision history for Perl extension Template-Plugin-Filter-Base64
 
-0.05 2019-03-06T14:43:07Z
+{{$NEXT}}
+
+0.05 2019-03-06T15:23:55Z
 
     - added safeurl option, adding local paramters (thanks to gnatyna)
 
