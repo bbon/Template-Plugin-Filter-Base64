@@ -25,7 +25,7 @@ Template::Plugin::Filter::Base64 - encoding b64 filter for Template Toolkit
 
 # SEE ALSO
 
-MIME::Base64 - Encoding and decoding of base64 strings [http://search.cpan.org/~gaas/MIME-Base64/Base64.pm](http://search.cpan.org/~gaas/MIME-Base64/Base64.pm)
+MIME::Base64 - Encoding and decoding of base64 strings [https://metacpan.org/pod/MIME::Base64](https://metacpan.org/pod/MIME::Base64)
 
 # LICENSE
 

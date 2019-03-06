@@ -123,6 +123,14 @@ Copyright (C) bbon.
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
+=head1 THANKS
+
+gnatyna <https://github.com/gnatyna>
+
+gilgamesh44
+
+=cut
+
 =head1 AUTHOR
 
 bbon <bbon@mail.ru>
