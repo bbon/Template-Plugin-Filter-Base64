@@ -10,7 +10,7 @@ use Encode;
 use MIME::Base64 qw(encode_base64);
 use HTML::Entities qw(encode_entities_numeric);
 
-our $VERSION = "0.05";
+our $VERSION = "0.06";
 
 sub init {
     my ($self) = @_;
@@ -114,7 +114,7 @@ Optional. If true call MIME::Base64::encode_base64url, no other options do matte
 
 =head1 SEE ALSO
 
-MIME::Base64 - Encoding and decoding of base64 strings L<http://search.cpan.org/~gaas/MIME-Base64/Base64.pm>
+MIME::Base64 - Encoding and decoding of base64 strings L<https://metacpan.org/pod/MIME::Base64>
 
 =head1 LICENSE
 
@@ -125,7 +125,7 @@ it under the same terms as Perl itself.
 
 =head1 THANKS
 
-gnatyna <https://github.com/gnatyna>
+gnatyna L<https://github.com/gnatyna>
 
 gilgamesh44
 

@@ -68,7 +68,7 @@
          "web" : "https://github.com/bbon/Template-Plugin-Filter-Base64"
       }
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_authority" : "cpan:BBON",
    "x_contributors" : [
       "Alexander A. Gnatyna <a.gnatyna@gazeta.ru>",
