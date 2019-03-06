@@ -129,8 +129,6 @@ gnatyna L<https://github.com/gnatyna>
 
 gilgamesh44
 
-=cut
-
 =head1 AUTHOR
 
 bbon <bbon@mail.ru>
