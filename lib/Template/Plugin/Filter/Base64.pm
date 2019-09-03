@@ -10,7 +10,7 @@ use Encode;
 use MIME::Base64 qw(encode_base64);
 use HTML::Entities qw(encode_entities_numeric);
 
-our $VERSION = "0.05";
+our $VERSION = "0.06";
 
 sub init {
     my ($self) = @_;
@@ -41,10 +41,12 @@ sub filter {
             $text = decode($charset, $text)
         }
         $text = Encode::encode('UTF-8',$text);
-        
         Encode::_utf8_on($text);
+
         $text = encode_entities_numeric($text);
 
+    }else{
+        utf8::encode($text) if utf8::is_utf8($text);
     }
     if ($conf->{dont_broken_into_lines_each_76_char}) {
         push @encode_args, '';
