@@ -10,7 +10,7 @@ use Encode;
 use MIME::Base64 qw(encode_base64);
 use HTML::Entities qw(encode_entities_numeric);
 
-our $VERSION = "0.06";
+our $VERSION = "0.07";
 
 sub init {
     my ($self) = @_;
